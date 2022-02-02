@@ -1,0 +1,95 @@
+/*REGOLE GENERALI*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*REGOLE CONTAINER E BTN*/
+
+.container{
+    width: 70%;
+    padding: 15px 0;
+    margin: auto;
+}
+
+#cont-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    background-color: aquamarine;
+    padding: 30px 0;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#cont-2{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.btn1{
+    padding: 2px 0;
+    padding-right: 100px;
+}
+
+.btn2{
+    padding: 2px 30px;
+}
+
+
+/*REGOLE SQUARE*/
+
+
+
+[class*='square']{
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squareEasy{
+    width: calc(100% / 10);
+    height: calc(100% / 10); 
+}
+
+.squareMedium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.squareInsane{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.squareBlue{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.squareRed{
+    background-color: red;
+    color: white;
+}
+
+.none{
+    display: none;
+}
